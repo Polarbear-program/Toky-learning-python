@@ -40,6 +40,12 @@ RLHF(Reinforcement Learning from Human Feedback)
 - You need "fork" to change someone else's project in Github
 - I still can change other's project, but they will have to accept the changes
 
+>> 11th August, 2026
+- Git push, pull, create repository right on github desktop
+- Stack
+- numpy, matplotlib.pyploy library
+- manipulating array and subarray
+
 ✅ Variables
 ✅ Conditions
 ✅ Loops
@@ -49,7 +55,7 @@ RLHF(Reinforcement Learning from Human Feedback)
 ✅ Searching
 ✅ Recursion
 ✅ Sorting
-⬜ Stacks
+✅ Stacks
 ⬜ Queues
 ⬜ Linked Lists
 ⬜ Trees
