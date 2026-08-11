@@ -41,6 +41,7 @@ RLHF(Reinforcement Learning from Human Feedback)
 - I still can change other's project, but they will have to accept the changes
 
 >> 11th August, 2026
+- function, accessing function, parameters & arguments, scope within function, kwargs
 - Git push, pull, create repository right on github desktop
 - Stack
 - numpy, matplotlib.pyploy library
@@ -64,6 +65,10 @@ RLHF(Reinforcement Learning from Human Feedback)
 ⬜ Time complexity (Big O)
 ⬜ Object-Oriented Programming (in more depth)
 
+## QUESTION
+- PIP, Modules, Iterators, RegEx
+- Queues, Linked Lists, Trees
+- Function *args, **kwargs
 
 ## CREDITS
 **Tokyx「Polabear」**
