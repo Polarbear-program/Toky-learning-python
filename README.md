@@ -1,2 +1,63 @@
-# Toky-learning-python
-python learning processing *
+## THIS IS MY PROGRESS OF LEARNING HOW TO CODE
+
+> **[!WARNING]**
+> This update can be very attracting to the viewer eyes. If this happens to some of you, I just want to let you know that. Have a great day, and please fix any issue in your life.
+>
+
+## SUMMARY
+A not-so-organized roadmap of Toky-programming's study since July 24th, 2026. It first started with variables, conditions, and then slowly
+progress to loops, functions, lists, etc. At first, I was not really serious about coding at all, but it takes some courage as well as discipline to get this far.
+> It's hard to just write a new README.md from scratch since I didn't really do this before. But this could act as a second journal, mostly for updating what I've learn about programming. You can modify and update to this branch.
+
+## THE LOG
+>> 3th August, 2026 [WHAT I HAVE LEARNT]
+- Dictionary
+- Binary Search/Linear Search
+- Recursion
+- Python List
+
+>> 4th August, 2026
+
+- Little bit of DBMS(Database management system)
+- LLMs(Large-language models), API(Application Programming Interface)
+RLHF(Reinforcement Learning from Human Feedback)
+- Calling a function in Python (but not really know how a function work)
+- Python Classes and Objects(OOP)
+- Differences between For loop and While loop
+- Install Github -> Create a batch -> Make a push -> make a pull
+
+>> 5th August, 2026
+
+- File Handling in Python
+- Quick Sort
+- Set, list and its methods in Python Datatype
+- Math needs for programming
+- Do I need to learn discrete math too?
+ [!Maybe later, finish all Python first]
+
+>> 6th August, 2026
+- Notion
+- You need "fork" to change someone else's project in Github
+- I still can change other's project, but they will have to accept the changes
+
+✅ Variables
+✅ Conditions
+✅ Loops
+✅ Functions
+✅ Lists
+✅ Dictionaries
+✅ Searching
+✅ Recursion
+✅ Sorting
+⬜ Stacks
+⬜ Queues
+⬜ Linked Lists
+⬜ Trees
+⬜ Hash Tables
+⬜ Graphs
+⬜ Time complexity (Big O)
+⬜ Object-Oriented Programming (in more depth)
+
+
+## CREDITS
+**Tokyx「Polabear」**
