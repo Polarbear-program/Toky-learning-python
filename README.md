@@ -50,6 +50,9 @@ RLHF(Reinforcement Learning from Human Feedback)
 >> 15th August, 2026
 - Import module which is a file of code, using import and from
 - Understand the usage of list, tuples(useless), sets
+- Create the first snake game using turtle library in Python, to create screen of application: + Screen() method, title, setup(for width and height of the game), bgcolor, tracer(0) is turn off the screen update
+- Create a moveable project using direction, xcor(), ycor(), setx(), sety()
+- Create a key press setting using key.listen() method and onkeypress(direction,key)
 
 ✅ Variables
 ✅ Conditions
