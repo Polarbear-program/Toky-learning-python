@@ -47,6 +47,10 @@ RLHF(Reinforcement Learning from Human Feedback)
 - numpy, matplotlib.pyploy library
 - manipulating array and subarray
 
+>> 15th August, 2026
+- Import module which is a file of code, using import and from
+- Understand the usage of list, tuples(useless), sets
+
 ✅ Variables
 ✅ Conditions
 ✅ Loops
@@ -69,6 +73,8 @@ RLHF(Reinforcement Learning from Human Feedback)
 - PIP, Modules, Iterators, RegEx
 - Queues, Linked Lists, Trees
 - Function *args, **kwargs
+
+
 
 ## CREDITS
 **Tokyx「Polabear」**
