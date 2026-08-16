@@ -74,7 +74,7 @@ RLHF(Reinforcement Learning from Human Feedback)
 ⬜ Linked Lists
 ⬜ Trees
 ⬜ Hash Tables
-⬜ Graphs
+✅ Graphs
 ⬜ Time complexity (Big O)
 ⬜ Object-Oriented Programming (in more depth)
 
@@ -82,6 +82,7 @@ RLHF(Reinforcement Learning from Human Feedback)
 - PIP, Modules, Iterators, RegEx
 - Queues, Linked Lists, Trees
 - Function *args, **kwargs
+- Learning about matplotlibs, turtle, time library on Python
 
 
 
