@@ -58,6 +58,7 @@ RLHF(Reinforcement Learning from Human Feedback)
 - Carry on with programming snake game, by creating segment for the snsake
 - Turtle() method in turtle library is object, Screen() method is for screen
 - The object penup() method should be put before goto() method, to stop before it already appeared there
+- Using inheritance in snake game to make the code cleaner and more organized
 
 ✅ Variables
 ✅ Conditions
