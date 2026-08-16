@@ -5,7 +5,7 @@ import random  # To randomize object's location
 delay = 0.1
 
 # Set up the screen
-screen = tur.Screen()
+screen = tur.Screen() # Inheritancen the Screen() method from tur
 screen.title("Toky - programming 1st ever Snake game")
 screen.setup(width=1080, height=720)
 screen.bgcolor("cyan")
@@ -28,6 +28,8 @@ food.speed(0)
 food.goto(0, 0)
 food.penup()
 food.direction = "stop"
+
+segments = []
 
 # Function
 
@@ -78,11 +80,32 @@ def move():
 while True:
     screen.update()
 
+    # Collision with the food
     if head.distance(food) < 20:
         # Move the food to random spot
         x = random.randint(-522, 522)
         y = random.randint(-348, 348)
         food.goto(x, y)
+
+        # Add a segment
+        new_segment = tur.Turtle()
+        new_segment.speed(0)
+        new_segment.shape("square")
+        new_segment.color("gray")
+        new_segment.penup()
+        segments.append(new_segment)
+
+    # Move the end segments first in reverse order
+    for index in range(len(segments)-1, 0, -1):
+        x = segments[index-1].xcor()
+        y = segments[index-1].ycor()
+        segments[index].goto(x, y)
+
+    # Move segment 0 to where the head is
+    if len(segments) > 0:
+        x = head.xcor()
+        y = head.ycor()
+        segments[0].goto(x,y)
 
     move()
 
