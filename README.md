@@ -59,6 +59,8 @@ RLHF(Reinforcement Learning from Human Feedback)
 - Turtle() method in turtle library is object, Screen() method is for screen
 - The object penup() method should be put before goto() method, to stop before it already appeared there
 - Using inheritance in snake game to make the code cleaner and more organized
+- It seems like every class call, you have to contain one __init__ method... 
+  -> Nope, actually only unique variable needed
 
 ✅ Variables
 ✅ Conditions
