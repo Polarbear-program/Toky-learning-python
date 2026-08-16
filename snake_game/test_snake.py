@@ -31,23 +31,30 @@ food.direction = "stop"
 
 segments = []
 
+# Pen
+pen = tur.Turtle()
+
 # Function
 
 
 def go_up():
-    head.direction = "up"
+    if head.direction != "down":
+        head.direction = "up"
 
 
 def go_down():
-    head.direction = "down"
+    if head.direction != "up":
+        head.direction = "down"
 
 
 def go_left():
-    head.direction = "left"
+    if head.direction != "right":
+        head.direction = "left"
 
 
 def go_right():
-    head.direction = "right"
+    if head.direction != "left":
+        head.direction = "right"
 
 
 # Keyboard bindings
@@ -80,6 +87,19 @@ def move():
 while True:
     screen.update()
 
+    # Check for collision with the border
+    if head.xcor() > 522 or head.xcor() < -522 or head.ycor() > 348 or head.ycor() < -348:
+        time.sleep(1)
+        head.goto(0,0)
+        head.direction = "stop"
+
+        # Hide the segments:
+        for segment in segments:
+            segment.goto(1000,1000)
+
+        # Clear the segments:
+        segments.clear()
+
     # Collision with the food
     if head.distance(food) < 20:
         # Move the food to random spot
@@ -109,6 +129,20 @@ while True:
 
     move()
 
+    # Check for head collision with the body segments
+    for segment in segments:
+        if segment.distance(head) < 20:
+            time.sleep(1)
+            head.goto(0,0)
+            head.direction = "stop"
+
+            # Hide the segments:
+            for segment in segments:
+                segment.goto(1000,1000)
+            
+                # Clear the segments:
+            segments.clear()
+                    
     time.sleep(delay)
 
 

@@ -54,6 +54,10 @@ RLHF(Reinforcement Learning from Human Feedback)
 - Create a moveable project using direction, xcor(), ycor(), setx(), sety()
 - Create a key press setting using key.listen() method and onkeypress(direction,key)
 
+>> 16th August, 2026
+- Carry on with programming snake game, by creating segment for the snsake
+- Turtle() method in turtle library is object, Screen() method is for screen
+
 ✅ Variables
 ✅ Conditions
 ✅ Loops
