@@ -57,6 +57,7 @@ RLHF(Reinforcement Learning from Human Feedback)
 >> 16th August, 2026
 - Carry on with programming snake game, by creating segment for the snsake
 - Turtle() method in turtle library is object, Screen() method is for screen
+- The object penup() method should be put before goto() method, to stop before it already appeared there
 
 ✅ Variables
 ✅ Conditions
