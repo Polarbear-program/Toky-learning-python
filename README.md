@@ -66,14 +66,15 @@ RLHF(Reinforcement Learning from Human Feedback)
 - Quick learn about bubble sort, selection sort, insertion sort. Understand the fundamental of algorithm
 - OOP: Understand clearer the implementation of inheritance, why the child class will override its parents inheritance when it has its own __init__ method. But this wull cause the child's class to has it owns property, that's why super().__init__(property you want to access from parents or sibling class) comes to play
 
-- Get used to Turtle() method in turtle library. Create a basic graph
+- Get used to Turtle() method in <turtle library>. Create a basic graph
 
 >> 18th August, 2026
-- Messing with json library, create one, open one using file handling of python. with open("mod.json", "r") as file. And json.load(file) to convert string of JSON to Python
+- Messing with <json> library, create one, open one using file handling of python. with open("mod.json", "r") as file. And json.load(file) to convert string of JSON to Python
 - Created my personal LICENSE
 - Analyze and learning the fundamental of a program
 - Using git add name.file to add a single file, git add . or git add --all or git add -A - for Staging all changes
 - Using git commit -m "message" to update the status of change within the project
+- Understand <ATRIBUTE> that property of a class, attribute is represent the quality of the class or object: Age, hair color, address, max speed, min speed, etc
 
 ✅ Variables
 ✅ Conditions
@@ -105,4 +106,3 @@ RLHF(Reinforcement Learning from Human Feedback)
 * Tokyx「Polabear」- Author
 * Jonathan Bronstein - Advisor
 * HungLeAnh - Tutor
-
