@@ -70,7 +70,10 @@ RLHF(Reinforcement Learning from Human Feedback)
 
 >> 18th August, 2026
 - Messing with json library, create one, open one using file handling of python. with open("mod.json", "r") as file. And json.load(file) to convert string of JSON to Python
+- Created my personal LICENSE
 - Analyze and learning the fundamental of a program
+- Using git add name.file to add a single file, git add . or git add --all or git add -A - for Staging all changes
+- Using git commit -m "message" to update the status of change within the project
 
 ✅ Variables
 ✅ Conditions
@@ -99,4 +102,7 @@ RLHF(Reinforcement Learning from Human Feedback)
 
 
 ## CREDITS
-**Tokyx「Polabear」**
+* Tokyx「Polabear」- Author
+* Jonathan Bronstein - Advisor
+* HungLeAnh - Tutor
+
