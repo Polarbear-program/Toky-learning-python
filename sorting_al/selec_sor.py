@@ -11,6 +11,7 @@ def selec_sor(arr):
         arr.insert(i, min_value)
 
 # Improve version of selec sort
+
 def selec(arr):
     m = len(arr)
     for i in range(m-1):
