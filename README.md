@@ -68,6 +68,10 @@ RLHF(Reinforcement Learning from Human Feedback)
 
 - Get used to Turtle() method in turtle library. Create a basic graph
 
+>> 18th August, 2026
+- Messing with json library, create one, open one using file handling of python. with open("mod.json", "r") as file. And json.load(file) to convert string of JSON to Python
+- Analyze and learning the fundamental of a program
+
 ✅ Variables
 ✅ Conditions
 ✅ Loops
