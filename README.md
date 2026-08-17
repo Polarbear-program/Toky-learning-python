@@ -60,7 +60,11 @@ RLHF(Reinforcement Learning from Human Feedback)
 - The object penup() method should be put before goto() method, to stop before it already appeared there
 - Using inheritance in snake game to make the code cleaner and more organized
 - It seems like every class call, you have to contain one __init__ method... 
-  -> Nope, actually only unique variable needed
+  -> To use the instance of the function without having to interfere with the class 
+
+>> 17th August, 2026
+- Quick learn about bubble sort, selection sort, insertion sort. Understand the fundamental of algorithm
+- OOP: Understand clearer the implementation of inheritance, why the child class will override its parents inheritance when it has its own __init__ method. But this wull cause the child's class to has it owns property, that's why super().__init__(property you want to access from parents or sibling class) comes to play
 
 ✅ Variables
 ✅ Conditions

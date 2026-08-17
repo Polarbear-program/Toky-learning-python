@@ -8,7 +8,7 @@ def partition(arr, low_value, high_value):
     # make a pivot, every time value of arr see a high value, it will become the pivot
     pivot = arr[high_value]
 
-    # No clue why index = low value - 1
+    # Index start at the lowest value and then moving on
     i = low_value - 1
 
     for j in range(low_value, high_value):
