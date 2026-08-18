@@ -7,7 +7,7 @@
 ## SUMMARY
 A not-so-organized roadmap of Toky-programming's study since July 24th, 2026. It first started with variables and conditions, and then slowly
 progressed to loops, functions, lists, etc. At first, I was not really serious about coding at all, but it takes some courage as well as discipline to get this far.
-> It's hard to just write a new README.md from scratch since I didn't really do this before. But this could act as a second journal, mostly for updating what I've learned about programming. You can modify and update this branch.
+> It's hard to just write a new README.md from scratch since I didn't really do this before. But this could act as a second journal, mostly for updating what I've learned about programming.
 
 ## THE LOG
 >> 3rd August, 2026 [WHAT I HAVE LEARNT]
@@ -71,10 +71,10 @@ RLHF(Reinforcement Learning from Human Feedback)
 >> 18th August, 2026
 - Messing with the <json> library, create one, open one using file handling in Python. with open("mod.json", "r") as file. And json.load(file) to convert string of JSON to Python
 - Created my personal LICENSE
-- Analyze and learning the fundamental of a program
+- Analyzing and learning the fundamentals of a program
 - Using git add name.file to add a single file, git add . or git add --all or git add -A - for Staging all changes
 - Using git commit -m "message" to update the status of change within the project
-- Understand <ATRIBUTE> that property of a class, attribute is represent the quality of the class or object: Age, hair color, address, max speed, min speed, etc
+- Understand <ATTRIBUTE> that property of a class, attribute is represent the quality of the class or object: Age, hair color, address, max speed, min speed, etc
 
 ✅ Variables
 ✅ Conditions
@@ -99,8 +99,6 @@ RLHF(Reinforcement Learning from Human Feedback)
 - Queues, Linked Lists, Trees
 - Function *args, **kwargs
 - Learning about matplotlib, turtle, time library in Python
-
-
 
 ## CREDITS
 * Tokyx「Polabear」- Author
