@@ -75,6 +75,7 @@ RLHF(Reinforcement Learning from Human Feedback)
 - Using git add name.file to add a single file, git add . or git add --all or git add -A - for Staging all changes
 - Using git commit -m "message" to update the status of change within the project
 - Understand <ATTRIBUTE> that property of a class, attribute is represent the quality of the class or object: Age, hair color, address, max speed, min speed, etc
+- Using turtle library again, with the clearer understand of screen.tracer(), screen.delay(), turtle.write("message", align="", font=()) method
 
 ✅ Variables
 ✅ Conditions
