@@ -95,6 +95,10 @@ RLHF(Reinforcement Learning from Human Feedback)
 ⬜ Time complexity (Big O)
 ⬜ Object-Oriented Programming (in more depth)
 
+>> August 20th, 2026
+- Understand the use of turtle.left(angle turn left) and turtle right(angle turn right) method in directing the object. turtle.fd(steps) will program how the distance of your first step and ongoing step of an object
+-screen.textinput() 
+
 ## QUESTION
 - PIP, Modules, Iterators, RegEx
 - Queues, Linked Lists, Trees
