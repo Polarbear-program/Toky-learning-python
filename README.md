@@ -87,7 +87,7 @@ RLHF(Reinforcement Learning from Human Feedback)
 ✅ Recursion
 ✅ Sorting
 ✅ Stacks
-⬜ Queues
+✅ Queues
 ⬜ Linked Lists
 ⬜ Trees
 ⬜ Hash Tables
@@ -97,10 +97,11 @@ RLHF(Reinforcement Learning from Human Feedback)
 
 >> August 20th, 2026
 - Understand the use of turtle.left(angle turn left) and turtle right(angle turn right) method in directing the object. turtle.fd(steps) will program how the distance of your first step and ongoing step of an object
--screen.textinput() 
+- screen.textinput()
+- Learn the fundamentals of queues, which is first-in-first-out, it can be implemented for e-ticket queue, select first ticket that went first: Enqueue for adding element to the last of list, dequeue to delete/return element from the first index, peek is return the first element from list, isEmpty to check if list is empty,and Size is the amount of element in queue aka len(queue) method
 
 ## QUESTION
-- PIP, Modules, Iterators, RegEx
+- PIP, Modules, Iterators, RegEx ✅
 - Queues, Linked Lists, Trees
 - Function *args, **kwargs
 - Learning about matplotlib, turtle, time library in Python
@@ -109,3 +110,5 @@ RLHF(Reinforcement Learning from Human Feedback)
 * Tokyx「Polabear」- Author
 * Jonathan Bronstein - Advisor
 * HungLeAnh - Tutor
+
+README. somethin
