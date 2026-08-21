@@ -77,6 +77,48 @@ RLHF(Reinforcement Learning from Human Feedback)
 - Understand <ATTRIBUTE> that property of a class, attribute is represent the quality of the class or object: Age, hair color, address, max speed, min speed, etc
 - Using turtle library again, with the clearer understand of screen.tracer(), screen.delay(), turtle.write("message", align="", font=()) method
 
+>> August 20th, 2026
+- Understand the use of turtle.left(angle turn left) and turtle right(angle turn right) method in directing the object. turtle.fd(steps) will program how the distance of your first step and ongoing step of an object
+- screen.textinput()
+- Learn the fundamentals of queues, which is first-in-first-out, it can be implemented for e-ticket queue, select first ticket that went first: Enqueue for adding element to the last of list, dequeue to delete/return element from the first index, peek is return the first element from list, isEmpty to check if list is empty,and Size is the amount of element in queue aka len(queue) method
+
+>> August 21th, 2026
+- Learn linked list, understand the differences between linked list and array. Known how to build a liked list data structure via coding and known that it's harder and require more coding lines than array data structure since linked list doesn't have built-in support like array does.
+- Linked list:
+  # This way a node can understand that it needs to store value and link to nothing, which later link to other node
+  - class Node:
+    def __init__(self, value):
+      self.value = value
+      self.next = None
+
+    # This way a node in linked-list can be traverse to the next node, and be printed out
+  - def traverse_Print(head):
+      # Current node will store the value
+      currentNode = head
+      # While current node existed, a loop will occur to make sure next node exist 
+      while currentNode:
+        # Print the current node first, next node carry on later
+        print(currentNode.value, end= " -> ")
+        currentNode = currentNode.next 
+      # After no node found in the next turn, print "null"
+      print("null")
+
+  - def findLowValue(node):
+      lowValue = node.value
+      # The currentNode = node.next is just a Node pointer point to next node address
+      # Which is why when comparing lowValue with currentNode must has .value to select the value not the address
+      currentNode = node.next
+
+      while currentNode:
+        # If lowest value greater than next value, next value definetly lower so that lowest value = next value
+        if lowValue > currentNode.value:
+            lowValue = currentNode.value
+        # After comparison, next node will be linked
+        currentNode = currentNode.next
+    print(lowValue)
+
+
+
 ✅ Variables
 ✅ Conditions
 ✅ Loops
@@ -95,10 +137,7 @@ RLHF(Reinforcement Learning from Human Feedback)
 ⬜ Time complexity (Big O)
 ⬜ Object-Oriented Programming (in more depth)
 
->> August 20th, 2026
-- Understand the use of turtle.left(angle turn left) and turtle right(angle turn right) method in directing the object. turtle.fd(steps) will program how the distance of your first step and ongoing step of an object
-- screen.textinput()
-- Learn the fundamentals of queues, which is first-in-first-out, it can be implemented for e-ticket queue, select first ticket that went first: Enqueue for adding element to the last of list, dequeue to delete/return element from the first index, peek is return the first element from list, isEmpty to check if list is empty,and Size is the amount of element in queue aka len(queue) method
+
 
 ## QUESTION
 - PIP, Modules, Iterators, RegEx ✅
@@ -110,5 +149,3 @@ RLHF(Reinforcement Learning from Human Feedback)
 * Tokyx「Polabear」- Author
 * Jonathan Bronstein - Advisor
 * HungLeAnh - Tutor
-
-README. somethin
