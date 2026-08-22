@@ -82,7 +82,7 @@ RLHF(Reinforcement Learning from Human Feedback)
 - screen.textinput()
 - Learn the fundamentals of queues, which is first-in-first-out, it can be implemented for e-ticket queue, select first ticket that went first: Enqueue for adding element to the last of list, dequeue to delete/return element from the first index, peek is return the first element from list, isEmpty to check if list is empty,and Size is the amount of element in queue aka len(queue) method
 
->> August 21th, 2026
+>> August 21st, 2026
 - Learn linked list, understand the differences between linked list and array. Known how to build a liked list data structure via coding and known that it's harder and require more coding lines than array data structure since linked list doesn't have built-in support like array does.
 - Linked list:
   # This way a node can understand that it needs to store value and link to nothing, which later link to other node
@@ -116,8 +116,12 @@ RLHF(Reinforcement Learning from Human Feedback)
         # After comparison, next node will be linked
         currentNode = currentNode.next
     print(lowValue)
+    - Understand, in every function created specifically for linked-list, the function(node/head) parameter always work as Node intended, not a value like int, str, flo
 
-
+>> August 22th, 2026
+- First time solved a problem without needing to ask AI, internet or a friend. Getting used with
+calling a function, parameter, loop to solve a array-related problems
+- Understand the linked-list mechanism and traverse and delete it
 
 ✅ Variables
 ✅ Conditions
@@ -130,7 +134,7 @@ RLHF(Reinforcement Learning from Human Feedback)
 ✅ Sorting
 ✅ Stacks
 ✅ Queues
-⬜ Linked Lists
+✅ Linked Lists
 ⬜ Trees
 ⬜ Hash Tables
 ✅ Graphs
