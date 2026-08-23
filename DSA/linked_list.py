@@ -1,5 +1,4 @@
 # This is a linked list
-
 # One node contains of value and a pointer link to the next node
 class Node:
     def __init__(self, value):
@@ -16,20 +15,25 @@ def traverse_print(head):
         print("null")
 
 # Insert new node into current linked list with position
-def insertNodeAtPosition(head, newNode, position):
-  if position == 1:
-    newNode.next = head
-    return newNode
+def insertNewNode(head, newNode, position):
+    # Return new Node if position given = 1
+    if position == 1:
+        newNode.next = head
+        return newNode
 
-  currentNode = head
-  for _ in range(position - 2):
-    if currentNode.next is None:
-      break
-    currentNode = currentNode.next
-
-  newNode.next = currentNode.next
-  currentNode.next = newNode
-  return head
+    # given currentNode = 2, imagine if newNode is nothing then break.
+    # but if nothing happen, proceed node -> pointer ->....
+    currentNode = head
+    for _ in range(position - 2):
+        if newNode is None:
+            break
+        currentNode = currentNode.next
+        
+    # And then, new Node's pointer replace currentNode's pointer.
+    # CurrentNode pointer connect to new Node
+    newNode.next = currentNode.next
+    currentNode.next = newNode
+    return currentNode
 
 # Remove node in linked list
 def removeNode(head, nodeDelete):
@@ -39,11 +43,11 @@ def removeNode(head, nodeDelete):
     while currentNode:
         pass
 
-
 # Node parameter is the Node datastructure created, not a value
 def biggestValue(head):
-    currentNode = head.next
-    bigValue = head.value
+    currentNode = head
+    currentNode = currentNode.next
+    bigValue = currentNode.value
 
     while currentNode:
         if currentNode.value > bigValue:
@@ -86,5 +90,5 @@ traverse_print(node1)
 print("The biggest value in node 8 - node 11 is:",biggestValue(node8))
 
 # After adding a new Node
-insertNodeAtPosition(node1, newNode, 2)
+insertNewNode(node1, newNode, 2)
 print("After adding new node:", traverse_print(node1))
