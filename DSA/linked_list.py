@@ -23,7 +23,7 @@ def insertNewNode(head, newNode, position):
     currentNode = head
     # Return new Node if position given = 1
     if position == 1:
-        newNode.next = head
+        newNode.next = currentNode
         return newNode
 
     # given currentNode = 2, imagine if newNode is nothing then break.
@@ -54,6 +54,7 @@ def removeNode(head, nodeDelete):
         return currentNode
 
     currentNode.next = currentNode.next.next
+    return currentNode
 
 # Node parameter is the Node datastructure created, not a value
 
@@ -109,5 +110,5 @@ insertNewNode(node1, newNode, 2)
 traverse_print(node1)
 
 # And then, delete the node 3 which is Wednesday Node
-removeNode(node1, node1)
+removeNode(node1, node3)
 traverse_print(node1)
