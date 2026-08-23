@@ -6,15 +6,19 @@ class Node:
         self.value = value
         self.next = None
 
-# A function to traverse data/value ad then print it out    
+# A function to traverse data/value ad then print it out
+
+
 def traverse_print(head):
-        currentNode = head
-        while currentNode:
-            print(currentNode.value, end=" -> ")
-            currentNode = currentNode.next
-        print("null")
+    currentNode = head
+    while currentNode:
+        print(currentNode.value, end=" -> ")
+        currentNode = currentNode.next
+    print("null")
 
 # Insert new node into current linked list with position
+
+
 def insertNewNode(head, newNode, position):
     currentNode = head
     # Return new Node if position given = 1
@@ -28,7 +32,7 @@ def insertNewNode(head, newNode, position):
         if newNode is None:
             break
         currentNode = currentNode.next
-        
+
     # And then, new Node's pointer replace currentNode's pointer.
     # CurrentNode pointer connect to new Node
     newNode.next = currentNode.next
@@ -36,14 +40,24 @@ def insertNewNode(head, newNode, position):
     return currentNode
 
 # Remove node in linked list
-def removeNode(head, nodeDelete):
-    pass
 
+
+def removeNode(head, nodeDelete):
     currentNode = head
-    while currentNode:
-        pass
+    if currentNode == nodeDelete:
+        return currentNode.next
+    
+    while currentNode.next is not nodeDelete:
+        currentNode = currentNode.next
+
+    if currentNode.next is None:
+        return currentNode
+
+    currentNode.next = currentNode.next.next
 
 # Node parameter is the Node datastructure created, not a value
+
+
 def biggestValue(head):
     currentNode = head
     currentNode = currentNode.next
@@ -54,6 +68,7 @@ def biggestValue(head):
             bigValue = currentNode.value
         currentNode = currentNode.next
     return bigValue
+
 
 # Assign value for each node created
 node1 = Node("Monday")
@@ -87,8 +102,12 @@ node11.next = node12
 
 # function traverse and print will print out value(before adding more element)
 traverse_print(node1)
-print("The biggest value in node 8 - node 11 is:",biggestValue(node8))
+print("The biggest value in node 8 - node 11 is:", biggestValue(node8))
 
 # After adding a new Node
 insertNewNode(node1, newNode, 2)
-print("After adding new node:", traverse_print(node1))
+traverse_print(node1)
+
+# And then, delete the node 3 which is Wednesday Node
+removeNode(node1, node1)
+traverse_print(node1)

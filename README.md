@@ -133,6 +133,16 @@ the current's next pointer will point into new pointer:
   currentNode.next = newNode
   return currentNode
 
+- Understand the mechanism of the removeNode(head, nodeRemove) function:
+  if head(currentNode) == nodeRemove:
+    return currentNode.next (nothing happen, carry on with pointer pointing to next node)
+  
+  while currentNode.next is not noteRemove:
+    currentNode = currentNode.next
+
+  if currentNode.next is None:
+    return currentNode
+  currentNode.next = currentNode.next.next  
 
 ✅ Variables
 ✅ Conditions
