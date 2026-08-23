@@ -119,10 +119,20 @@ RLHF(Reinforcement Learning from Human Feedback)
     
     - Understand, in every function created specifically for linked-list, the function(node/head) parameter always work as Node intended, not a value like int, str, flo
 
->> August 22th, 2026
+>> August 22nd, 2026
 - First time solved a problem without needing to ask AI, internet or a friend. Getting used with
 calling a function, parameter, loop to solve a array-related problems
 - Understand the linked-list mechanism and traverse and delete it
+
+>> August 23rd, 2026
+- Understand clearer the function insertNewNode,
+when a new Node created, it will replace currentNode
+next pointer to point into the next pointer, then,
+the current's next pointer will point into new pointer:
+  newNode.next = currentNode.next
+  currentNode.next = newNode
+  return currentNode
+
 
 ✅ Variables
 ✅ Conditions
@@ -141,8 +151,6 @@ calling a function, parameter, loop to solve a array-related problems
 ✅ Graphs
 ⬜ Time complexity (Big O)
 ⬜ Object-Oriented Programming (in more depth)
-
-
 
 ## QUESTION
 - PIP, Modules, Iterators, RegEx ✅

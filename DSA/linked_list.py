@@ -16,6 +16,7 @@ def traverse_print(head):
 
 # Insert new node into current linked list with position
 def insertNewNode(head, newNode, position):
+    currentNode = head
     # Return new Node if position given = 1
     if position == 1:
         newNode.next = head
@@ -23,7 +24,6 @@ def insertNewNode(head, newNode, position):
 
     # given currentNode = 2, imagine if newNode is nothing then break.
     # but if nothing happen, proceed node -> pointer ->....
-    currentNode = head
     for _ in range(position - 2):
         if newNode is None:
             break
