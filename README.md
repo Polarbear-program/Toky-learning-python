@@ -110,12 +110,13 @@ RLHF(Reinforcement Learning from Human Feedback)
       currentNode = node.next
 
       while currentNode:
-        If lowest value greater than next value, next value definetly lower so that lowest value = next value
+        > If lowest value greater than next value, next value definetly lower so that lowest value = next value
         if lowValue > currentNode.value:
             lowValue = currentNode.value
         > After comparison, next node will be linked
         currentNode = currentNode.next
     print(lowValue)
+    
     - Understand, in every function created specifically for linked-list, the function(node/head) parameter always work as Node intended, not a value like int, str, flo
 
 >> August 22th, 2026
