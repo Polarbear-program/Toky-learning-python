@@ -85,35 +85,35 @@ RLHF(Reinforcement Learning from Human Feedback)
 >> August 21st, 2026
 - Learn linked list, understand the differences between linked list and array. Known how to build a liked list data structure via coding and known that it's harder and require more coding lines than array data structure since linked list doesn't have built-in support like array does.
 - Linked list:
-  # This way a node can understand that it needs to store value and link to nothing, which later link to other node
+  > This way a node can understand that it needs to store value and link to nothing, which later link to other node
   - class Node:
     def __init__(self, value):
       self.value = value
       self.next = None
 
-    # This way a node in linked-list can be traverse to the next node, and be printed out
+    > This way a node in linked-list can be traverse to the next node, and be printed out
   - def traverse_Print(head):
-      # Current node will store the value
+      > Current node will store the value
       currentNode = head
-      # While current node existed, a loop will occur to make sure next node exist 
+      > While current node existed, a loop will occur to make sure next node exist 
       while currentNode:
-        # Print the current node first, next node carry on later
+        > Print the current node first, next node carry on later
         print(currentNode.value, end= " -> ")
         currentNode = currentNode.next 
-      # After no node found in the next turn, print "null"
+      > After no node found in the next turn, print "null"
       print("null")
 
   - def findLowValue(node):
       lowValue = node.value
-      # The currentNode = node.next is just a Node pointer point to next node address
-      # Which is why when comparing lowValue with currentNode must has .value to select the value not the address
+      > The currentNode = node.next is just a Node pointer point to next node address
+      > Which is why when comparing lowValue with currentNode must has .value to select the value not the address
       currentNode = node.next
 
       while currentNode:
-        # If lowest value greater than next value, next value definetly lower so that lowest value = next value
+        If lowest value greater than next value, next value definetly lower so that lowest value = next value
         if lowValue > currentNode.value:
             lowValue = currentNode.value
-        # After comparison, next node will be linked
+        > After comparison, next node will be linked
         currentNode = currentNode.next
     print(lowValue)
     - Understand, in every function created specifically for linked-list, the function(node/head) parameter always work as Node intended, not a value like int, str, flo
