@@ -1,4 +1,5 @@
-
+# Linear search, running the array in a linear way
+# To find the target
 arr = [2, 4, 6, 1, 8, 24, 23, 12, 25, 9]
 
 high_val = 0
