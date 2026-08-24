@@ -144,6 +144,12 @@ the current's next pointer will point into new pointer:
     return currentNode
   currentNode.next = currentNode.next.next  
 
+  >> August 24th, 2026
+  - Almost everything in Python is object with properties and methods(No wonder it so slow)
+  - __init__() is an built-in method in Python that help you to initiate the class itself when you call call it.
+  - (self) parameter is a reference to the instance of a class. Without self, the class wouldn't know which object's properties you want to access
+  - (self) does not need to named self.
+
 ✅ Variables
 ✅ Conditions
 ✅ Loops
