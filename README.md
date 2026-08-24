@@ -167,8 +167,8 @@ the current's next pointer will point into new pointer:
 ⬜ Trees
 ⬜ Hash Tables
 ✅ Graphs
-⬜ Time complexity (Big O)
-⬜ Object-Oriented Programming (in more depth)
+✅ Time complexity (Big O)
+✅ Object-Oriented Programming (in more depth)
 
 ## QUESTION
 - PIP, Modules, Iterators, RegEx ✅
