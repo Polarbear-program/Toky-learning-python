@@ -149,7 +149,7 @@ the current's next pointer will point into new pointer:
   - __init__() is an built-in method in Python that help you to initiate the class itself when you call call it.
   - (self) parameter is a reference to the instance of a class. Without self, the class wouldn't know which object's properties you want to access
   - (self) does not need to named self.
-  - Class in class, the implementation
+  - Class in class, the implementation. It is really useful to organize my code, because it will inheritant the properties and methods of the outer class
 
 ✅ Variables
 ✅ Conditions
