@@ -153,7 +153,8 @@ the current's next pointer will point into new pointer:
   - Encapsulation: Using double underscore __ prefix will make the variable becomes private. And to access into the private variable, I will need a return function to access it, or use it within the class. 
 
   >> August 26th, 2026
-  Create a list with 10 empty elements
+  - Create a list with 10 empty elements, know that it will use Unicode to track down position of each "bucket" in a hash(no fucking clue, I will learn again later)
+  - id(variable) to find the memory address of the variable, hex(id(variable)) to cast into heximal
 
 ✅ Variables
 ✅ Conditions
