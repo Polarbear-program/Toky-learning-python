@@ -18,6 +18,14 @@ def traverse_print(head):
 
 # Insert new node into current linked list with position
 
+def traverseAndPrint_address(head):
+    currentNode = head
+    while currentNode:
+
+        print(f"({str(hex(id(currentNode.value)))})", end="")
+        print(" -> ", end= "")
+        currentNode = currentNode.next
+    print("Null")
 
 def insertNewNode(head, newNode, position):
     currentNode = head
@@ -41,7 +49,6 @@ def insertNewNode(head, newNode, position):
 
 # Remove node in linked list
 
-
 def removeNode(head, nodeDelete):
     currentNode = head
     if currentNode == nodeDelete:
@@ -57,7 +64,6 @@ def removeNode(head, nodeDelete):
     return currentNode
 
 # Node parameter is the Node datastructure created, not a value
-
 
 def biggestValue(head):
     currentNode = head  # currentNode created
@@ -110,3 +116,4 @@ traverse_print(node1)
 # And then, delete the node 3 which is Wednesday Node
 removeNode(node1, node3)
 traverse_print(node1)
+traverseAndPrint_address(node1)
