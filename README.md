@@ -152,6 +152,9 @@ the current's next pointer will point into new pointer:
   - Class in class, the implementation. It is really useful to organize my code, because it will inheritant the properties and methods of the outer class
   - Encapsulation: Using double underscore __ prefix will make the variable becomes private. And to access into the private variable, I will need a return function to access it, or use it within the class. 
 
+  >> August 26th, 2026
+  Create a list with 10 empty elements
+
 ✅ Variables
 ✅ Conditions
 ✅ Loops

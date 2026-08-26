@@ -60,16 +60,14 @@ def removeNode(head, nodeDelete):
 
 
 def biggestValue(head):
-    currentNode = head
-    currentNode = currentNode.next
-    bigValue = currentNode.value
-
+    currentNode = head  # currentNode created
+    bigValue = currentNode.value  # bigValue will assigned as currentNode value first
+    
     while currentNode:
         if currentNode.value > bigValue:
             bigValue = currentNode.value
         currentNode = currentNode.next
     return bigValue
-
 
 # Assign value for each node created
 node1 = Node("Monday")
