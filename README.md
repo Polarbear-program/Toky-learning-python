@@ -199,7 +199,7 @@ the current's next pointer will point into new pointer:
 - Learning about matplotlib, turtle, time library in Python
 
 ## CREDITS
-* Tokyx「Polabear」- Author
-* Jonathan Bronstein - Advisor
-* HungLeAnh - Tutor
+* [Tokyx-Polarbear](https://github.com/Polarbear-program)
+* [Jonathan Bronstein](https://github.com/Bronstein0x113c1c3)
+* [Giám Dog](https://github.com/HungLeAnh)
 * [Noah Trần - Advisor](https://github.com/Coder-Blue)
