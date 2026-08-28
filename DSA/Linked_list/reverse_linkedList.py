@@ -19,11 +19,15 @@ def reverse_and_print(head):
         # Next node will create first, it is after nolde
         next_node = curr.next
 
-        # current node will point back to the node before it
+        # Current node's address will point back to the node before it
         # Previous at first will point to None
         curr.next = prev
+        # Previous's position = current node's position 
         prev = curr
+        # Current node's position = next_node's position and so on
         curr = next_node
+    # After the loop finish, return the previous node
+    # Which its position is now located at the last node
     return prev
 
 
