@@ -3,7 +3,6 @@
 list = [None, None, None, None, None,
         None, None, None, None, None]
 
-
 # In this function we will make each character into Unicode number
 # And use modulo 10 operator to get index numbers 0-9
 def hash_function(list):

@@ -165,6 +165,7 @@ the current's next pointer will point into new pointer:
         -> Learn the relation between each Node, for instance dashed line connect each Node are path.
         -> A is "parent/root function", B and C is child function of A. If the child function connect lead to None(null), then it will be the "leaf nodes"
         - A subtree with B is "the Root"
+  - Reverse Linked list using 3-pointer method, prev - curr - next pointer. The "previous" will first point at None(null), "the current" node will be the node that point to the value; and lastly "next pointer" point to the node after the current pointer
 
 ✅ Variables
 ✅ Conditions
