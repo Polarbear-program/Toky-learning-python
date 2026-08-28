@@ -161,6 +161,10 @@ the current's next pointer will point into new pointer:
 
   >> August 28th, 2026
   - Permutate function, hashmap(dictionary) implementation, quickSort easier
+  - Binary Tree, how to create one, connect binary tree node. A -> (B, C), B ->..., C->...
+        -> Learn the relation between each Node, for instance dashed line connect each Node are path.
+        -> A is "parent/root function", B and C is child function of A. If the child function connect lead to None(null), then it will be the "leaf nodes"
+        - A subtree with B is "the Root"
 
 ✅ Variables
 ✅ Conditions
@@ -174,7 +178,7 @@ the current's next pointer will point into new pointer:
 ✅ Stacks
 ✅ Queues
 ✅ Linked Lists
-⬜ Trees
+✅ Trees
 ⬜ Hash Tables
 ✅ Graphs
 ✅ Time complexity (Big O)
@@ -182,7 +186,7 @@ the current's next pointer will point into new pointer:
 
 ## QUESTION
 - PIP, Modules, Iterators, RegEx ✅
-- Queues, Linked Lists, Trees
+- Queues, Linked Lists, Trees  ✅
 - Function *args, **kwargs
 - Learning about matplotlib, turtle, time library in Python
 
