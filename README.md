@@ -37,7 +37,7 @@ RLHF(Reinforcement Learning from Human Feedback)
 
 >> 6th August, 2026
 - Notion
-- You need "fork" to change someone else's project on GitHub
+- You need "fork" to make a request of changing someone else's project on GitHub, or make a clone of their code in the github server
 - I still can change others' projects, but they will have to accept the changes
 
 >> 11th August, 2026
