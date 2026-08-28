@@ -159,6 +159,9 @@ the current's next pointer will point into new pointer:
     >> August 27th, 2026
   - I've spent all day, making logo for a company so I didn't study much today. Only make one simple_math using the class, def to create a power and square root function
 
+  >> August 28th, 2026
+  - Permutate function, hashmap(dictionary) implementation
+
 ✅ Variables
 ✅ Conditions
 ✅ Loops
