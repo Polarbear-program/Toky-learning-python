@@ -165,6 +165,11 @@ the current's next pointer will point into new pointer:
         -> Learn the relation between each Node, for instance dashed line connect each Node are path.
         -> A is "parent/root function", B and C is child function of A. If the child function connect lead to None(null), then it will be the "leaf nodes"
         - A subtree with B is "the Root"
+  - Binary tree have many types based on multiple factor:
+    - On the basis of Number of Children: Full Binary Tree, Degenerate Binaray Tree, Skewed Binary Trees
+    - On the basis of Completion of Levels: Complete Binary Tree, Perfect Binary Tree, Balanced Binary Tree
+    - On the basis of Node Values: Binary Search Tree, AVL Tree, Red Black Tree, B Tree, B+ Tree, Segment Tree
+     
   - Reverse Linked list using 3-pointer method, prev - curr - next pointer. The "previous" will first point at None(null), "the current" node will be the node that point to the value; and lastly "next pointer" point to the node after the current pointer
 
 ✅ Variables
