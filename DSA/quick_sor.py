@@ -6,7 +6,7 @@ def swap(arr, i, j):
 
 def partition(arr, low_value, high_value):
     # make a pivot, every time value of arr see a high value, it will become the pivot
-    pivot = arr[high_value]
+    pivot = arr[high_value] 
 
     # Index start at the lowest value and then moving on
     i = low_value - 1
@@ -41,3 +41,7 @@ if __name__ == "__main__":
 
     for val in arr:
         print(val, end= " ")
+    print('\n')
+
+    test = [1,2,3]
+    print(len(test))

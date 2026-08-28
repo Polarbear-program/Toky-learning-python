@@ -169,7 +169,7 @@ the current's next pointer will point into new pointer:
     - On the basis of Number of Children: Full Binary Tree, Degenerate Binaray Tree, Skewed Binary Trees
     - On the basis of Completion of Levels: Complete Binary Tree, Perfect Binary Tree, Balanced Binary Tree
     - On the basis of Node Values: Binary Search Tree, AVL Tree, Red Black Tree, B Tree, B+ Tree, Segment Tree
-     
+
   - Reverse Linked list using 3-pointer method, prev - curr - next pointer. The "previous" will first point at None(null), "the current" node will be the node that point to the value; and lastly "next pointer" point to the node after the current pointer
 
 ✅ Variables
@@ -200,3 +200,4 @@ the current's next pointer will point into new pointer:
 * Tokyx「Polabear」- Author
 * Jonathan Bronstein - Advisor
 * HungLeAnh - Tutor
+* Noah Trần - Advisor
