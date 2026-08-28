@@ -202,4 +202,4 @@ the current's next pointer will point into new pointer:
 * Tokyx「Polabear」- Author
 * Jonathan Bronstein - Advisor
 * HungLeAnh - Tutor
-* (Noah Trần - Advisor)[https://github.com/Coder-Blue]
+* [Noah Trần - Advisor](https://github.com/Coder-Blue)
