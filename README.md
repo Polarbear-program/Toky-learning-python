@@ -3,7 +3,7 @@
 > **[!WARNING]**
 > This update can be very attractive to the viewer's eyes. If this happens to some of you, I just want to let you know that. Have a great day, and please fix any issues in your life.
 
-![image alt](<img width="596" height="843" alt="image" src="https://github.com/user-attachments/assets/55350329-224b-404f-ba33-b3f1a0c85f51" />
+![Toky_first_git_avatar](<img width="596" height="843" alt="image" src="https://github.com/user-attachments/assets/55350329-224b-404f-ba33-b3f1a0c85f51" />
 
 
 ## SUMMARY
