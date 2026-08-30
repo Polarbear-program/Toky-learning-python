@@ -174,6 +174,8 @@ the current's next pointer will point into new pointer:
 
   - Reverse Linked list using 3-pointer method, prev - curr - next pointer. The "previous" will first point at None(null), "the current" node will be the node that point to the value; and lastly "next pointer" point to the node after the current pointer
 
+  >> August 30th, 2026
+  - Today I've decided to do some basic logic problems to enhance my fundamental of solving problems in programing like: Even and odd check, multiplication table
 ✅ Variables
 ✅ Conditions
 ✅ Loops
