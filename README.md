@@ -178,6 +178,7 @@ the current's next pointer will point into new pointer:
   - Today I've decided to do some basic logic problems to enhance my fundamental of solving problems in programing like: Even and odd check, multiplication table, Sum of natual
   - Also learn to use recursion in some problems, C syntax could also be applied in python: print("%d * %d = %d" % "n, i, n * i")
       => I struggled a lot during program for the sum of natural numbers, mostly syntax
+      => For fuck sake, I should have also more careful with the variable name, one wrong name and the recursion just repeats itself forever
 ✅ Variables
 ✅ Conditions
 ✅ Loops

@@ -1,7 +1,7 @@
 def sum_of_natural(number_input: int):
     if number_input == 1:
         return 1
-    
+
     for i in range(1, number_input):
 
         # Number input will summarize from 1 to itself
@@ -14,7 +14,14 @@ def sum_of_natural(number_input: int):
     return number_input
 
 
+def recursion_sum(number_input: int):
+    if number_input == 1:
+        return 1
+    else:
+        return number_input + recursion_sum(number_input-1)
+
+
 print("Please enter any positive integer:", end="")
 num_input = int(input())
 
-print(sum_of_natural(num_input))
+print(recursion_sum(num_input))
