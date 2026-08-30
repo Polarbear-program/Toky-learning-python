@@ -6,7 +6,7 @@ def multiplication_table(number: int):
     for i in range_number:
         print(f"{number} * {i} =", number * i)
 
-    # Using the while loop statement    
+    # Using the while loop statement
     """i = 1
         while number:
             print(f"{number} * {i} =", number * i)
@@ -15,5 +15,16 @@ def multiplication_table(number: int):
                 break"""
 
 
+def multilication_table_recur(num: int, i:int = 1):
+    # Using recursive to multiply given number
+    if (i == 11):
+        return 
+    print("%d * %d = %d" % (num, i, num * i))
+    i += 1
+    multilication_table_recur(num, i)
+
+
 num_input = int(input())
 result = multiplication_table(num_input)
+
+test = multilication_table_recur(num_input)
