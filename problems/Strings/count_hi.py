@@ -12,3 +12,13 @@ def count_hi(str):
     if str[search] == "h" and str[search + 1] == "i":
       count +=1
   return count
+
+def count_hi_sh(str):
+  count = 0
+  for search in range(len(str)-1):
+    if str[search:search+2] == "hi":
+      count +=1
+  return count
+
+string = "Rodhisia"
+print(count_hi_sh(string))
