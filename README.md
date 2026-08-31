@@ -158,7 +158,7 @@ the current's next pointer will point into new pointer:
   - Create a list with 10 empty elements, know that it will use Unicode to track down position of each "bucket" in a hash(no fucking clue, I will learn again later)
   - id(variable) to find the memory address of the variable, hex(id(variable)) to cast into heximal
 
-    >> August 27th, 2026
+  >> August 27th, 2026
   - I've spent all day, making logo for a company so I didn't study much today. Only make one simple_math using the class, def to create a power and square root function
 
   >> August 28th, 2026
@@ -175,11 +175,16 @@ the current's next pointer will point into new pointer:
   - Reverse Linked list using 3-pointer method, prev - curr - next pointer. The "previous" will first point at None(null), "the current" node will be the node that point to the value; and lastly "next pointer" point to the node after the current pointer
 
   >> August 30th, 2026
-  - Today I've decided to do some basic logic problems to enhance my fundamental of solving problems in programing like: Even and odd check, multiplication table, Sum of natual
+  - Today I've decided to do some basic logic problems to enhance my fundamental of solving problems(or maybe because today I'm lazy) in programing like: Even and odd check, multiplication table, Sum of natual
   - Also learn to use recursion in some problems, C syntax could also be applied in python: print("%d * %d = %d" % "n, i, n * i")
       => I struggled a lot during program for the sum of natural numbers, mostly syntax
       => For fuck sake, I should have also more careful with the variable name, one wrong name and the recursion just repeats itself forever
   - Maybe do some problems with a specific variable type, like "string - str", like: make_out_word, extra_end, make_tags, first_two, first_half, without_end,...
+
+>> August 31st, 2026
+- Last day of month. I've been learning quite a lot actually, from data types, variable of Python; to linked list, traverse the node, binary tree, making a project and solving problems.
+- But I feel like I still have so much to learn, and there're some invisible forces within me that pressured me inside. I'm really afraid the day my day cut off his monthly supports and I'll have to figuring out a way to make money, there will be no time and joy left for me to study. So now I'll have to push, and maybe cutting edges...
+
 ✅ Variables
 ✅ Conditions
 ✅ Loops
