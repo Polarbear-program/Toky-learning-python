@@ -114,19 +114,22 @@ RLHF(Reinforcement Learning from Human Feedback)
   >> After no node is found in the next turn, print "null"
   >>          print("null")
   >>
-  >> def findLowValue(node):
-  >>>     lowValue = node.value
-  >>>     The currentNode = node.next is just a Node pointer pointing to the next node address
-  >>>     Which is why when comparing lowValue with currentNode must have .value to select the value, not the address
-  >>>     currentNode = node.next
+  >>      def findLowValue(node):
+  >>>       lowValue = node.value
+  >>>       # The currentNode = node.next is just a Node pointer
+  >>>       # pointing to the next node address
+  >>>       # Which is why when comparing lowValue with currentNode
+  >>>       # must have .value to select the value, not the address
+  >>>       currentNode = node.next
   >
   >>>      while currentNode:
-  >>>      # If the lowest value is greater than the next value, the next value is definitely lower, so the lowest value = next value
-  >>>      if lowValue > currentNode.value:
+  >>>      # If the lowest value is greater than the next value,
+  >>>      # the next value is definitely lower, so the lowest value = next value
+  >>>>      if lowValue > currentNode.value:
   >>>>          lowValue = currentNode.value
   >>>>       # After comparison, next node will be linked
   >>>>           currentNode = currentNode.next
-  >>   print(lowValue)
+  >>>>     print(lowValue)
   >  
   >   Understand, in every function created specifically for linked-list, the function(node/head) parameter always works as Node intended, not a value like int, str, float
 ---
