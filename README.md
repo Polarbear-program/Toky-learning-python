@@ -96,36 +96,36 @@ RLHF(Reinforcement Learning from Human Feedback)
 #### [August 21st, 2026] ####
 - Learn linked list, understand the differences between linked list and array. Know how to build a linked list data structure via coding and know that it's harder and requires more coding lines than an array data structure since a linked list doesn't have built-in support as an array does.
 - Linked list:
-  > This way, a node can understand that it needs to store a value and link to nothing, which later links to another node
-  >> class Node:
+   - This way, a node can understand that it needs to store a value and link to nothing, which later links to another node
+  > class Node:
   >>   def __init__(self, value):
-  >>    self.value = value
-  >>    self.next = None
-  >>
-  >> This way, a node in a linked list can be traversed to the next node and printed out
+  >>>    self.value = value
+  >>>    self.next = None
+  >
+  >> - This way, a node in a linked list can be traversed to the next node and printed out
   >> def traverse_Print(head):
-  >>   Current node will store the value
-  >>     currentNode = head
-  >>     While the current node exists, a loop will occur to make sure the next node exists 
-  >>     while currentNode:
-  >>        Print the current node first, next node carry on later
-  >>        print(currentNode.value, end= " -> ")
-  >>        currentNode = currentNode.next 
+  >>>   Current node will store the value
+  >>>     currentNode = head
+  >>>     While the current node exists, a loop will occur to make sure the next node exists 
+  >>>     while currentNode:
+  >>>>        Print the current node first, next node carry on later
+  >>>>        print(currentNode.value, end= " -> ")
+  >>>>        currentNode = currentNode.next 
   >> After no node is found in the next turn, print "null"
   >>          print("null")
   >>
   >> def findLowValue(node):
-  >>    lowValue = node.value
-  >>    The currentNode = node.next is just a Node pointer pointing to the next node address
-  >>    Which is why when comparing lowValue with currentNode must have .value to select the value, not the address
-  >>    currentNode = node.next
-  >>
+  >>>    # lowValue = node.value
+  >>>    # The currentNode = node.next is just a Node pointer pointing to the next node address
+  >>>    # Which is why when comparing lowValue with currentNode must have .value to select the value, not the address
+  >>>    # currentNode = node.next
+  >
   >>    while currentNode:
-  >>    If the lowest value is greater than the next value, the next value is definitely lower, so the lowest value = next value
-  >>      if lowValue > currentNode.value:
-  >>          lowValue = currentNode.value
-  >>       After comparison, next node will be linked
-  >>       currentNode = currentNode.next
+  >>>    If the lowest value is greater than the next value, the next value is definitely lower, so the lowest value = next value
+  >>>      if lowValue > currentNode.value:
+  >>>>          lowValue = currentNode.value
+  >>>       After comparison, next node will be linked
+  >>>>       currentNode = currentNode.next
   >>   print(lowValue)
   >  
   >   Understand, in every function created specifically for linked-list, the function(node/head) parameter always works as Node intended, not a value like int, str, float
