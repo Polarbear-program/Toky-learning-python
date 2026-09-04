@@ -4,7 +4,7 @@
 > This update can be very attractive to the viewer's eyes. If this happens to some of you, I just want to let you know that. Have a great day, and please fix any issues in your life.
 
 <p align="center">
-  <img src="[Others/Artboard4.png]" alt="Toky_first_git_avatar" width="128" height="128" />
+  <img src="Others/Artboard4.png" alt="Toky_first_git_avatar" width="128" height="128" />
 </p>
 
 ---
