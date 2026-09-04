@@ -13,7 +13,7 @@ progressed to loops, functions, lists, etc. At first, I was not really serious a
 ---
 
 ### THE LOG ###
-** 3rd August, 2026 [WHAT I HAVE LEARNT] **
+#### 3rd August, 2026 [WHAT I HAVE LEARNT] ####
 - Dictionary
 - Binary Search/Linear Search
 - Recursion
