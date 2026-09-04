@@ -132,7 +132,7 @@ RLHF(Reinforcement Learning from Human Feedback)
   >           currentNode = currentNode.next
   >     print(lowValue)
   >  
-  >   Understand, in every function created specifically for linked-list, the function(node/head) parameter always works as Node intended, not a value like int, str, float
+  -   Understand, in every function created specifically for linked-list, the function(node/head) parameter always works as Node intended, not a value like int, str, float
 ---
 
 #### [August 22nd, 2026] ####
