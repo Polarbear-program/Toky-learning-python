@@ -108,10 +108,11 @@ RLHF(Reinforcement Learning from Human Feedback)
   >       currentNode = head
   > 
   >       # While the current node exists,
-  >       # a loop will occur to make sure the next node exists 
+  >       # a loop will occur to make sure the next node exists
+  > 
   >       while currentNode:
-  >          Print the current node first, next node carry on later
-  >          print(currentNode.value, end= " -> ")
+  >          # Print the current node first, next node carry on later
+  >          # print(currentNode.value, end= " -> ")
   >          currentNode = currentNode.next
   > 
   >       # After no node is found in the next turn, print "null"
