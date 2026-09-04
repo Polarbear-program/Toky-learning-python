@@ -149,20 +149,21 @@ calling a function, parameter, loop to solve an array-related problem
 - Understand the function insertNewNode clearer. When a new Node created, it will replace currentNode
 next pointer to point to the next node, then,
 the current node's next pointer will point to the new node:
-  newNode.next = currentNode.next
-  currentNode.next = newNode
-  return currentNode
+ >     newNode.next = currentNode.next
+ >     currentNode.next = newNode
+ >     return currentNode
 
 - Understand the mechanism of the removeNode(head, nodeRemove) function:
-  if head(currentNode) == nodeRemove:
-    return currentNode.next (nothing happens, carry on with pointer pointing to next node)
-  
-  while currentNode.next is not nodeRemove:
-    currentNode = currentNode.next
 
-  if currentNode.next is None:
-    return currentNode
-  currentNode.next = currentNode.next.next  
+ >     if head(currentNode) == nodeRemove:
+ >       return currentNode.next (nothing happens, carry on with pointer pointing to next node)
+ > 
+ >     while currentNode.next is not nodeRemove:
+ >       currentNode = currentNode.next
+
+ >     if currentNode.next is None:
+ >       return currentNode
+ >     currentNode.next = currentNode.next.next  
 ---
 
   #### [August 24th, 2026] ####
