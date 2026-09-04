@@ -3,7 +3,9 @@
 ### [WARNING] ###
 > This update can be very attractive to the viewer's eyes. If this happens to some of you, I just want to let you know that. Have a great day, and please fix any issues in your life.
 
-[Toky_first_git_avatar](<img width="596" height="843" alt="image" src="https://github.com/user-attachments/assets/55350329-224b-404f-ba33-b3f1a0c85f51" />
+<p align="center">
+  <img src="[src/lib/assets/favicon.svg](https://github.com/user-attachments/assets/55350329-224b-404f-ba33-b3f1a0c85f51)" alt="Toky_first_git_avatar" width="128" height="128" />
+</p>
 
 ---
 ### SUMMARY ###
