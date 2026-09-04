@@ -6,12 +6,12 @@
 [Toky_first_git_avatar](<img width="596" height="843" alt="image" src="https://github.com/user-attachments/assets/55350329-224b-404f-ba33-b3f1a0c85f51" />
 
 
-## SUMMARY
+### SUMMARY ###
 A not-so-organized roadmap of Toky-programming's study since July 24th, 2026. It first started with variables and conditions, and then slowly
 progressed to loops, functions, lists, etc. At first, I was not really serious about coding at all, but it takes some courage as well as discipline to get this far.
 > It's hard to just write a new README.md from scratch since I didn't really do this before. But this could act as a second journal, mostly for updating what I've learned about programming.
 
-## THE LOG
+### THE LOG ###
 >> 3rd August, 2026 [WHAT I HAVE LEARNT]
 - Dictionary
 - Binary Search/Linear Search
