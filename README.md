@@ -1,9 +1,9 @@
-## THIS IS MY PROGRESS OF LEARNING HOW TO CODE
+## THIS IS MY PROGRESS OF LEARNING HOW TO CODE - [PYTHON MOSTLY]
 
-### [!WARNING] ###
+### [WARNING] ###
 > This update can be very attractive to the viewer's eyes. If this happens to some of you, I just want to let you know that. Have a great day, and please fix any issues in your life.
 
-![Toky_first_git_avatar](<img width="596" height="843" alt="image" src="https://github.com/user-attachments/assets/55350329-224b-404f-ba33-b3f1a0c85f51" />
+[Toky_first_git_avatar](<img width="596" height="843" alt="image" src="https://github.com/user-attachments/assets/55350329-224b-404f-ba33-b3f1a0c85f51" />
 
 
 ## SUMMARY
