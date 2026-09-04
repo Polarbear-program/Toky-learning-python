@@ -115,16 +115,16 @@ RLHF(Reinforcement Learning from Human Feedback)
   >>          print("null")
   >>
   >> def findLowValue(node):
-  >>>    # lowValue = node.value
-  >>>    # The currentNode = node.next is just a Node pointer pointing to the next node address
-  >>>    # Which is why when comparing lowValue with currentNode must have .value to select the value, not the address
-  >>>    # currentNode = node.next
+  >>>     lowValue = node.value
+  >>>     The currentNode = node.next is just a Node pointer pointing to the next node address
+  >>>     Which is why when comparing lowValue with currentNode must have .value to select the value, not the address
+  >>>     currentNode = node.next
   >
   >>    while currentNode:
-  >>>    If the lowest value is greater than the next value, the next value is definitely lower, so the lowest value = next value
+  >>>    #### If the lowest value is greater than the next value, the next value is definitely lower, so the lowest value = next value ####
   >>>      if lowValue > currentNode.value:
   >>>>          lowValue = currentNode.value
-  >>>       After comparison, next node will be linked
+  >>>>       After comparison, next node will be linked
   >>>>       currentNode = currentNode.next
   >>   print(lowValue)
   >  
