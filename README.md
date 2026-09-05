@@ -239,5 +239,6 @@ the current node's next pointer will point to the new node:
 ## CREDITS
 * [Tokyx-Polarbear - Owner](https://github.com/Polarbear-program)
 * [Jonathan Bronstein - Advisor](https://github.com/Bronstein0x113c1c3)
+* [Mink Chang/Totoro - Advisor](https://github.com/tdtrung17693)
 * [Giám Dog - Tutor](https://github.com/HungLeAnh)
 * [Noah Trần - Advisor](https://github.com/Coder-Blue)
